@@ -2,7 +2,15 @@
 
 namespace App\Http\Controllers;
 
-abstract class Controller
+class Controller
 {
-    //
+
+    public function index() {
+        return 'Selamat Datang';
+    }
+
+    public function hello() {
+        return 'Hello World';
+    }
+
 }
